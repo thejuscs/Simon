@@ -1,0 +1,49 @@
+body {background-color: #07031a;
+    
+    font-family: 'Baloo Da 2', cursive;
+color: whitesmoke;
+text-align: center;}
+
+span { font-size: 5rem;}
+
+.gameover {
+    background-color: red;
+}
+.boxsize {
+    width: 8rem;
+    height: 8rem;
+    Smargin: 3px;
+    border-radius: 8px;
+    border-color: whitesmoke;
+    border-style: solid;
+  
+}
+
+.boxes { 
+    display: grid;
+  grid-template-columns: 8rem 8rem;
+  grid-template-rows: 8rem 8rem ;
+  gap: 1rem;
+  justify-content: center;
+}
+  
+
+.greenbox {
+    background-color: chartreuse;
+}
+
+.redbox {
+    background-color: crimson;
+}
+
+.yellowbox {
+    background-color: gold;
+}
+
+.bluebox{
+    background-color: navy;
+}
+
+footer {
+    margin-top: 10%;
+}
